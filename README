@@ -5,10 +5,10 @@ Designed to be run against a local mirror of pypi.
 
 Usage::
 
-	# extract all interesting metadata from sdists in a directory
+    # extract all interesting metadata from sdists in a directory
     python -m pypi_stats.count_easy_install /.../web/packages/source/
 
-	# parse some of that metadata
+    # parse some of that metadata
     python -m pypi_stats.parse_pkg_info
 
 The program produces a sqlite database called packagedata.db in the current
